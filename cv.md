@@ -35,7 +35,7 @@ console.log(getInitials('Koviatsinets Ihar'));
 ```
 ## Experience
 ## Education
-* University: Belarusian State University of Informatics and Radioelectronics (BSUIR), Master's degree
-* Courses: IT-Academy (HTML,CSS,JS)
+* University: Belarusian State University of Informatics and Radioelectronics (BSUIR), Master's degree;
+* Courses: IT-Academy (HTML,CSS,JS);
 ## English
 * A2 (reading and understanding technical documentation)
