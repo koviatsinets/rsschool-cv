@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./assets/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    
+<header class="header">
+    <div class="container-header">
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-elem"><a href="#contacts" class="nav-link">Contacts</a></li>
+                <li class="nav-elem"><a href="#about" class="nav-link">About Me</a></li>
+                <li class="nav-elem"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-elem"><a href="#code" class="nav-link">Code Example</a></li>
+                <li class="nav-elem"><a href="#experience" class="nav-link">Experience</a></li>
+                <li class="nav-elem"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-elem"><a href="#english" class="nav-link">English</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main class="main">
+    <div class="container-main">
+        <div class="section-first" id="profile">
+            <img class="photo" src="./assets/image.jpg" alt="photo(koviatsinets_ihar)"></img>
+            <div class="name"><h1 class="text-surname">KAVIATSINETS IHAR</h1><span class="text-profession">JUNIOR FRONT-END DEVELOPER</span></div>
+        </div>
+        <div class="section" id="contacts">
+            <h3>CONTACTS</h3>
+            <ul>
+                <li>Location: Minsk, Belarus</li>
+                <li>Phone: +375 29 144-86-98</li>
+                <li>Email: koviatsinets@gmail.com</li>
+                <li>GitHub: koviatsinets</li>
+                <li>Discord: koviatsinets</li>
+            </ul>
+        </div>
+        <div class="section" id="about">
+            <h3>ABOUT ME</h3>
+            <p>Since childhood I have been fond of computer and network technologies. I like to study new technologies. I like to set goals and achieve them, like to learn and constantly self-develop.
+                My strengths: dedication, curiosity, responsibility.</p>
+        </div>
+        <div class="section" id="skills">
+            <h3>SKILLS</h3>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript (Basic)</li>
+                <li>Git</li>
+                <li>VS Code</li>
+            </ul>
+        </div>
+        <div class="section" id="code">
+            <h3>CODE EXAMPLE</h3>
+            <pre><code>function getInitials(text) {
+        arr = text.split(' ');
+        let n;
+        let newArr = [];
+        let str;
+        for (let elem of arr) {
+                n = elem[0] + '.';
+                newArr.push(n);
+                str = newArr.join('');
+        }
+        return str;
+    } </code></pre>
+        </div>
+        <div class="section" id="experience">
+            <h3>EXPERIENCE</h3>
+            <ul>
+                <li><a class="link" href="https://github.com/koviatsinets">My CV (RS School)</a></li>
+            </ul>
+        </div>
+        <div class="section" id="education">
+            <h3>EDUCATION</h3>
+            </ul>
+                <li>University: BSUIR, Master's degree</li>
+                <li>Courses: IT-Academy (HTML, CSS, JS)</li>
+            </ul>
+        </div>
+        <div class="section" id="english">
+            <h3>ENGLISH</h3>
+            </ul>
+                <li>A2 (reading and understanding technical documentation)</li>
+            </ul>
+        </div>
+    </div>
+</main>
+
+<footer class="footer">
+    <div class="container-footer">
+        <div class="text-footer">
+            <span class="email">alternate_email</span>2022<a class="link" href="https://github.com/koviatsinets">koviatsinets</a>
+        </div>
+        <a href="https://rs.school/js/"><div class="logo"></div></a>
+    </div>
+</footer>
+
+
+</body>
+</html>
