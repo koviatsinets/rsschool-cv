@@ -1,3 +1,2 @@
-# rsschool-cv
-https://koviatsinets.github.io/rsschool-cv/cv
-https://koviatsinets.github.io/rsschool-cv/
+# [MARKDOWN_CV](https://koviatsinets.github.io/rsschool-cv/cv)
+# [CV_PAGE](https://koviatsinets.github.io/rsschool-cv/)
