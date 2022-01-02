@@ -5,6 +5,7 @@
 * Email: koviatsinets@gmail.com
 * GitHub: koviatsinets
 * Discord: i.koviatsinets
+
 ## About Me
 
 I like to study new technologies. I like to set goals and achieve them, like to learn and constantly self-develop.
@@ -15,6 +16,7 @@ My strengths: dedication, curiosity, responsibility.
 * JavaScript (Basic)
 * Git
 * VS Code
+
 ## Code Example
 When entering the first and last name, get the initials:
 ```
@@ -37,5 +39,6 @@ console.log(getInitials('Koviatsinets Ihar'));
 ## Education
 * University: Belarusian State University of Informatics and Radioelectronics (BSUIR), Master's degree;
 * Courses: IT-Academy (HTML,CSS,JS);
+
 ## English
 * A2 (reading and understanding technical documentation).
