@@ -15,7 +15,7 @@ body {
     min-height: 100vh;
     margin: 0;
     padding: 0;
-    background: linear-gradient(#67e5cd, #4477d4, #9950bb);
+    background: rgb(220, 220, 220)
 }
 
 
@@ -34,6 +34,7 @@ body {
     width: 90%;
     background-color: white;
     box-shadow: 0px 0px 4px 2px rgb(34 60 80 / 30%);
+    border-radius: 10px;
 }
 
 .footer {
@@ -70,6 +71,11 @@ body {
 }
 
 .section:last-child {
+    margin-bottom: 10px;
+    border: none;
+}
+
+.section:nth-child(6) {
     margin-bottom: 10px;
     border: none;
 }
